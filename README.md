@@ -33,4 +33,4 @@ Sources:
 Other Important Information:
 1. Inside ExpressReport/doc/Workflow_sketches you can find the initial hand drawn planning for the UI's that link to the
    four activities. 
-
+2. There was another git repo for thisproject containing my first 3 commits. There was a merge issue that I did not have time to resolve on submission so this final copy was placed in this repo. To review the three earlier commits you can go to: https://github.com/jbenson370/ExpressReport
