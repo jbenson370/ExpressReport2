@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/deleteItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addItem"
+        android:layout_alignBottom="@+id/addItem"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:text="- DELETE" />
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="29dp"
+        android:text="+ ADD" />
+
+    <ListView
+        android:id="@+id/item_listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/addItem"
+        android:layout_alignRight="@+id/deleteItem"
+        android:layout_below="@+id/deleteItem"
+        android:layout_marginTop="18dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/save_exit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item_listView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/item_listView"
+        android:text="@string/save_exit_btn" />
+
+</RelativeLayout>
